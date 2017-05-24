@@ -14,20 +14,22 @@ public class Tree {
                     System.out.print(" ");
                 }
             }
-            // I did not manage to correctly display the second half of the ladder!((
-            for (int k = 0; k < height; k++) {
-                for (int x = -1; x < height ; x++)
-                    if ( -i <=k-x )
-                    {
-                        System.out.print("#");
-                    } else {
-                        System.out.print(" ");
-                    }
+                // I did not manage to correctly display the second half of the ladder!((
+                for (int k = 0; k < height; k++) {
+                    for (int x = -1; x < height; x++)
+                        if (i <= x) {
+                            System.out.print("#");
+                        } else {
+                            System.out.print(" ");
+                        }
+
+
             }
             System.out.println();
         }
     }
 }
+
 
 
 
