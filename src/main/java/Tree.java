@@ -8,7 +8,7 @@ public class Tree {
         int height = in.nextInt();
         for (int i = 0; i < height; i++) {
             for (int j = -1; j < height; j++) {
-                if (height - i - 3 < j) {
+                if (height - i - 3 <= j) {
                     System.out.print("#");
                 } else {
                     System.out.print(" ");

@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Hillel" target="1.5" />
+      <module name="Hillel" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

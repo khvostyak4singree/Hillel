@@ -8,7 +8,7 @@ import java.util.*;
 public class ReadTextFile {
     public static void main(String[] args){
         try {
-            String filePath = "C:\\Users\\777\\IdeaProjects\\HillelProject\\src\\main\\java\\text.txt";
+            String filePath = "/home/michael/IdeaProjects/Hillel/src/main/text.txt";
 
             totalLinesAndWords(filePath);
             numberOfEachWords(filePath);
