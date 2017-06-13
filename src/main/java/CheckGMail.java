@@ -10,6 +10,6 @@ public class CheckGMail {
 
     }
     private static boolean isAGMailAddress(String input){
-        return Pattern.matches("^(([a-zA-Z0-9_!#$%&'*+/=?`{|}~^-]+(?:\\.[a-zA-Z0-9_!#$%&'*+/=?`{|}~^-]+)*@(?:gmail\\.com))?(?:,|$))+$", input);
+        return Pattern.matches("^(?i)(?:(?:[^@]+@gmail\\.com)(?:,|$))+$", input);
     }
 }
